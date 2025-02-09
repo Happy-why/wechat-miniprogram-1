@@ -31,25 +31,40 @@
 </view>
 <!-- 商品导航 -->
 <view class="good-nav">
- <view>
-  <image src="../../assets/index/good-nav/download/抖音号.png" mode=""/>
-  <text>鲜花玫瑰</text>
- </view>
- <view>
-  <image src="../../assets/index/good-nav/download/品牌认知.png" mode=""/>
-  <text>鲜花玫瑰</text>
- </view>
- <view>
-  <image src="../../assets/index/good-nav/download/行动转化.png" mode=""/>
-  <text>鲜花玫瑰</text>
- </view>
- <view>
-  <image src="../../assets/index/good-nav/download/销售线索.png" mode=""/>
-  <text>鲜花玫瑰</text>
- </view>
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/index/good-nav/download/抖音号.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/index/good-nav/download/品牌认知.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/index/good-nav/download/行动转化.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
+
+  <view>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/index/good-nav/download/销售线索.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+  </view>
 </view>
+
 <!-- 推荐商品 -->
 <view class="good-hot"></view>
 
 
 <!-- <text user-select="true">小猫🐱</text> -->
+
+<navigator url="/pages/list/list?id=10&num=hua" open-type="navigate">跳转到商品列表</navigator>
+<navigator url="/pages/cate/cate" open-type="switchTab">跳转到商品分类</navigator>
